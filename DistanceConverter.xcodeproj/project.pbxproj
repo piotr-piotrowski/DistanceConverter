@@ -14,6 +14,7 @@
 		F731D4151E2658C100C028B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F731D4131E2658C100C028B1 /* LaunchScreen.storyboard */; };
 		F731D4201E2658C100C028B1 /* DistanceConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731D41F1E2658C100C028B1 /* DistanceConverterTests.swift */; };
 		F731D42B1E2658C100C028B1 /* DistanceConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731D42A1E2658C100C028B1 /* DistanceConverterUITests.swift */; };
+		F731D4391E265D6200C028B1 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731D4381E265D6200C028B1 /* Distance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F731D4261E2658C100C028B1 /* DistanceConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F731D42A1E2658C100C028B1 /* DistanceConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceConverterUITests.swift; sourceTree = "<group>"; };
 		F731D42C1E2658C100C028B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F731D4381E265D6200C028B1 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F731D40A1E2658C100C028B1 /* AppDelegate.swift */,
 				F731D40C1E2658C100C028B1 /* ViewController.swift */,
 				F731D40E1E2658C100C028B1 /* Main.storyboard */,
+				F731D4381E265D6200C028B1 /* Distance.swift */,
 				F731D4111E2658C100C028B1 /* Assets.xcassets */,
 				F731D4131E2658C100C028B1 /* LaunchScreen.storyboard */,
 				F731D4161E2658C100C028B1 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F731D40D1E2658C100C028B1 /* ViewController.swift in Sources */,
+				F731D4391E265D6200C028B1 /* Distance.swift in Sources */,
 				F731D40B1E2658C100C028B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
